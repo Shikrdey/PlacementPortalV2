@@ -710,3 +710,5 @@ The **Placement Portal Application V2** provides a centralized platform for mana
 It connects the institute, recruiters, and students through role-based workflows while reducing manual coordination and improving application tracking.
 
 The use of **Flask, Vue.js, SQLite, Redis, and Celery** provides a lightweight architecture suitable for local deployment while supporting authentication, caching, scheduled tasks, asynchronous processing, and placement management.
+
+**Note:** Company names and placement drive details shown in this project are used for demonstration purposes only. This project is an independent academic project and is not officially affiliated with any of the companies listed.
