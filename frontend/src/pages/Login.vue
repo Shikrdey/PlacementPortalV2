@@ -3,14 +3,15 @@ import { ref } from "vue";
 import { useRouter } from "vue-router";
 import api from "@/services/api";
 import { useAuthStore } from "@/stores/auth";
-
+import eye from '@/assets/eye.svg';
+import image from '@/assets/download.jpeg';
+  
 const router = useRouter();
 const authStore = useAuthStore();
 
 const email = ref("");
 const password = ref("");
-const eye = "/src/assets/eye.svg";
-const image = "/src/assets/download.jpeg";
+
 
 const view = ref(false);
 
