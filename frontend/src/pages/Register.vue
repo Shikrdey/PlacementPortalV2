@@ -2,11 +2,12 @@
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 import api from "../services/api";
-
+import eye from '@/assets/eye.svg';
+import image from '@/assets/register.jpeg';
+  
 const router = useRouter();
 
-const eye = "/src/assets/eye.svg";
-const image = "/src/assets/register.jpeg";
+
 const role = ref("Student");
 const email = ref("");
 const password = ref("");
