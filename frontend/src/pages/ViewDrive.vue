@@ -3,12 +3,12 @@ import { ref, onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import api from "@/services/api";
 
+import bookmark from '@/assets/bookmark.svg';
+
 const router = useRouter();
 const route = useRoute();
 
 const role = localStorage.getItem("role");
-
-const bookmark = "/src/assets/bookmark.svg";
 
 const id = route.params.id;
 
