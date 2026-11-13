@@ -33,7 +33,7 @@ const updateProfile = async () => {
     });
     alert(response.data.message);
     router.push("/student/dashboard");
-    editMode = false;
+    editMode.value = false;
   } catch (error) {
     alert(error.response.data.message);
   }
