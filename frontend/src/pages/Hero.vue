@@ -1,9 +1,9 @@
 <script setup>
 
-const logo = "/src/assets/logo.svg"
-const companies = "/src/assets/companies.svg"
-const img1 = "/src/assets/image1.svg"
-const img2 = "/src/assets/image2.svg"
+import logo from '@/assets/logo.svg'
+import companies from '@/assets/companies.svg'
+import img1 from '@/assets/image1.svg'
+import img2 from '@/assets/image2.svg'
 
 </script>
 
