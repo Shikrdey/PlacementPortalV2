@@ -2,10 +2,10 @@
 import { ref, onMounted } from "vue";
 import router from "@/router";
 import api from "@/services/api";
-
+import arrow from '@/assets/arrow.svg';
+  
 const applications = ref([]);
 const name = ref("");
-const arrow = "/src/assets/arrow.svg";
 
 const exportCSV = async () => {
   try {
