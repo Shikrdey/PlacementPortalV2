@@ -4,19 +4,18 @@ import { useRouter } from "vue-router";
 import { useAuthStore } from "@/stores/auth";
 
 import api from "@/services/api";
+import grad_b from '@/assets/b.svg';
+import grad_p from '@/assets/p.svg';
+import grad_s from '@/assets/s.svg';
 
+import image from '@/assets/logo.svg';
+import pfp from '@/assets/Nagi.jpeg';
+  
 const authStore = useAuthStore();
 const router = useRouter();
 
 const drives = ref([]);
 const search = ref("");
-
-const grad_b = "/src/assets/b.svg";
-const grad_p = "/src/assets/p.svg";
-const grad_s = "/src/assets/s.svg";
-
-const image = "/src/assets/logo.svg";
-const pfp = "/src/assets/Nagi.jpeg";
 
 const searchDrive = computed(()=>{
 if(search.value.trim() === ""){
